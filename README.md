@@ -33,5 +33,3 @@ $ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' m
 $ docker inspect -f '{{ .Config.Hostname }}' my-container
 6095273a4e9b
 ```
-
-
