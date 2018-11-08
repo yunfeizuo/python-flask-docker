@@ -6,7 +6,7 @@ Build the Docker image manually by cloning the Git repo.
 ```
 $ git clone https://github.com/lvthillo/python-flask-docker.git
 $ docker build -t lvthillo/python-flask-docker .
-```
+``` 
 
 ### Download precreated image
 You can also just download the existing image from [DockerHub](https://hub.docker.com/r/lvthillo/python-flask-docker/).
